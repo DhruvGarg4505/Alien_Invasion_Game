@@ -26,11 +26,11 @@ class Settings:
         self.bullet_color = (60, 60, 60)        # These settings create dark gray bullets with a width of 3 pixels and a height of 15 pixels. The bullets will travel slightly slower than the ship
 
         # Alien settings
-        self.alien_speed = 1.0
+        self.alien_speed = 0.9
         self.fleet_drop_speed = 5
 
         # How quickly the game speeds up
-        self.speedup_scale = 1.1
+        self.speedup_scale = 10
 
         # How fast alien point values increases
         self.score_scale = 1.5
@@ -42,7 +42,7 @@ class Settings:
         """Initialize settings that change throughout the game."""
         self.ship_speed = 1.5
         self.bullet_speed = 3.0
-        self.alien_speed = 1.0
+        self.alien_speed = 0.9
 
         # fleet_direction of 1 represents right; -1 represents left.
         self.fleet_direction = 1

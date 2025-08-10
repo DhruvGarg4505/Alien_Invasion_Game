@@ -13,7 +13,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load ship image ------------
-        self.image = pygame.image.load("Projects/Alien Invasion/images/ship.bmp")
+        self.image = pygame.image.load("images/ship.bmp")
         self.rect = self.image.get_rect()
 
         # Start each new ship at bottom of center line -----------------
